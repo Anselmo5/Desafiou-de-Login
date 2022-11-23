@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+
+body{
+    background-color: #111111;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.alinhamento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forns-alin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forms{
+    width: 541px;
+    height: 703px;
+    background-color: #2E2E32;
+    border: 2px solid #46494F;
+    box-shadow: 0px 0px 20px #242426 ;
+    border-radius: 10px;
+}
+
+
+.fh h1{
+    font-size: 30px;
+    font-family: 'Jaldi',sans-serif;
+    color: rgba(165, 165, 165, 0.6);
+    text-align: center;
+    margin-top: 37.9;
+}
+
+.fp p{
+    font-size: 25px;
+    font-family: 'Jaldi',sans-serif;
+    text-align: center;
+    color: rgba(248, 251, 255, 0.6);
+    margin-top: 27.14;
+}
+
+.inp-alin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inp input{
+    width: 469.89px;
+    height: 69px;
+    outline: none;
+    padding: 3px;
+    background-color: #3C3C40;
+    color: #ffff;
+    border-radius: 10px;
+    margin-top: 41px;
+}
+
+.lin{
+width: 233.83px;
+height: 1.88px;
+margin-right: 235px;
+background: linear-gradient(90deg, #4C4C56 0%, #3C3C40 102.14%);
+border-radius: 5px;
+margin-top: -2.3px;
+}
+
+.emc{
+    color: #C7C7C7;
+    font-size: 24px;
+    font-family: 'Jaldi',sans-serif;
+    margin-right: 10px;
+    margin-top: 22.5px;
+}
+
+.cl{
+    color: #858585;
+    margin-right: 326px;
+    font-size: 24px;
+    font-family: 'Jaldi',sans-serif;
+    margin-top: 5px;
+}
+
+.inp2 input{
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    padding: 3px;
+    background-color: #3C3C40;
+    color: #ffff;
+    border-radius: 10px;
+    margin-right: 290px;
+    margin-top: 24px;
+    padding: 3px;
+    outline: none;
+}
+
+.btn-alin{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.btn button{
+    width: 122px;
+    height: 47px;
+    font-size: 38px;
+    background: #47474B;
+    border: 2px solid #575757;
+    border-radius: 5px;
+    color:  #7E7E7E;
+    margin-top: 36px;
+    margin-right: 10px;
+
+}
+
+.btn2 button{
+    width: 338px;
+    height: 47px;
+    background-color: #47474B;
+    border-radius: 5px;
+    border: 2px solid #575757;
+    color: #7E7E7E;
+    font-size: 22px;
+    font-family: 'Jaldi',sans-serif;
+    margin-top: 36px;
+}
+
+.fal{
+font-size: 22px;
+font-family: 'Jaldi',sans-serif;
+color:  rgba(248, 251, 255, 0.6);
+margin-top: 180px;
+}
+
+::placeholder{
+    padding: 5px;
+    font-family:'Jaldi',sans-serif ;
+    font-size:22px;
+}
